@@ -1,11 +1,11 @@
-## Azure Cloud infrastructure exam simulation
+## Azure Cloud infrastructure exam preparatory exercise
 
 ### Request
 Realizzare un sistema per la gestione degli acquisti da un e-commerce, che gestisca le fasi dalla raccolta ordini fino alla preparazione del pacco nel magazzino.
-Prevedere un'API rest che accetti l'ordine (id cliente, data ordine), con i prodotti da acquistare (codice, nome, quantità), salvi i dati da database e comunichi con il software di magazzino.
+Prevedere un'API rest che accetti l'ordine (id cliente, data ordine), con i prodotti da acquistare (codice, nome, quantitï¿½), salvi i dati da database e comunichi con il software di magazzino.
 Prevedere un software (Console Application o Worker Service) per il magazzino, dove (in tempo reale) arrivi l'ordine da preparare e permetta l'inserimento del codice di spedizione (string), da riportare poi nell'ordine  (a database).
 
-I dati degli ordini dovranno venire salvati in un database Azure SQL Database, in una prima fase con il codice di spedizione a NULL, che verrà poi aggiornato dalla console utilizzata dal magazziniere.
+I dati degli ordini dovranno venire salvati in un database Azure SQL Database, in una prima fase con il codice di spedizione a NULL, che verrï¿½ poi aggiornato dalla console utilizzata dal magazziniere.
 
 ### Project structure
 
